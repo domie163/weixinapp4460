@@ -1,0 +1,230 @@
+{
+    "easycom": {
+    	"^z-(.*)": "@zebra-ui/swiper/components/z-$1/z-$1.vue"
+    },
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "资讯详情"
+		}
+	}
+	,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/dianyingleixing/list",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/dianyingleixing/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/dianyingleixing/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/dianyingzhongxin/list",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/dianyingzhongxin/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/dianyingzhongxin/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/storeup/list",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/storeup/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/storeup/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/messages/list",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/messages/liuyan",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/discussdianyingzhongxin/list",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/discussdianyingzhongxin/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/discussdianyingzhongxin/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#93818E",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "基于微信小程序的电影交流平台",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#BBBBBB",
+		"selectedColor": "#93818E",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+
+			,{
+				"pagePath": "pages/dianyingzhongxin/list",
+				"iconPath": "/static/tabs/icon1.png",
+				"selectedIconPath": "/static/tabs/icon1_act.png",
+				"text": "电影中心"
+			}
+
+
+
+			,{
+			 	"pagePath": "pages/messages/list",
+				"iconPath": "static/tabs/message.png",
+			 	"selectedIconPath": "static/tabs/message_act.png",
+				"text": "留言反馈"
+			}
+
+
+
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
